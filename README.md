@@ -4,7 +4,7 @@ This document provides an overview of the API architecture for the announcements
 
 ## Base URL
 
-The base URL for accessing the API is: `http://your-api-domain.com`
+The base URL for accessing the API is: `https://stockinsights-rosy.vercel.app/`
 
 ## Endpoints
 
