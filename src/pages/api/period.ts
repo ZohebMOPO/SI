@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 const AnnouncementModel = require("../../../models/announcement.ts");
 import mongoose from "mongoose";
 
-const uri = process.env.MONGOURI as string;
+const uri = process.env.MONGO_URI as string;
 mongoose.connect(uri);
 
 export default async function period(
